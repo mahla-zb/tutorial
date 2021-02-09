@@ -1,0 +1,91 @@
+* {
+  font-family: 'IRANSans';
+  src: url('../fonts/IRANSans.ttf');
+  src: url('../fonts/IRANSans_Bold.ttf');
+  src: url('../fonts/IRANSans_Medium.ttf');
+}
+.container {
+  direction: rtl;
+  .main-grid {
+    .left-grid {
+      margin: 0px !important;
+
+      .image-left {
+        padding: 30px !important;
+        margin-left: 60px;
+        min-width: 150px;
+        height: auto;
+        align-items: center;
+        justify-self: center;
+      }
+      .course-text {
+        margin-top: 50px;
+        box-shadow: 0px 0px 2px 0px lighten(rgb(194, 194, 194), 5%);
+
+        .card-lesson {
+          padding: 0px 25px;
+          .note {
+            text-align: center;
+          }
+
+          .title-text-left {
+            text-align: flex-start;
+            margin-right: 25px;
+          }
+          .content-left-icon {
+            align-items: center;
+          }
+        }
+        .details {
+          box-shadow: 0px 0px 2px 0px lighten(rgb(194, 194, 194), 5%);
+          margin-top: 10px;
+          margin-bottom: 10px;
+
+          .number {
+            .number-text {
+              border-radius: 40px;
+              border: solid black 1px;
+              margin-right: 25px;
+              width: 25px;
+              height: 25px;
+              text-align: center;
+
+              padding-top: 4px;
+              font-size: 15px;
+            }
+          }
+        }
+        .details:last-child {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    .right-grid {
+      .left-box:last-child {
+        margin-bottom: 30px;
+      }
+      .title-text-right {
+        text-align: center;
+      }
+    }
+  }
+  .logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+}
+.icons {
+  height: 15px !important;
+  width: 15px !important;
+  path {
+    fill: grey;
+  }
+  margin: 7px 5px !important;
+}
+.value-text {
+  margin: 7px 5px !important;
+}
